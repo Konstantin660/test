@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cover">
+            <form action="#" id="form">
+                <h1 class="title">Индекс массы тела</h1>
+                <div class="cover__inner">
+                    <div class="weight">Введите вес в килограммах:</div>
+                    <input class="weight__inner" id="weight" type="text" name="weight" value="">
+                    <div class="height">Введите рост в сантиметрах:</div>
+                    <input class="height__inner" id="height" type="text" name="height" value="">
+                    <div class="line">*******************************</div>
+                    <div class="cover__inner-result">
+                        <div class="index">Индекс:<br><output name="result">0</output></div>
+                        <div class="diagnoz">Диагноз:<br><output name="diagnoz">0</output></div>
+                    </div>
+                </div>
+                <button class="btn" type="submit" onclick="res()"><strong>Результат</strong></button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

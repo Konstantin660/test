@@ -1,0 +1,87 @@
+body {
+    box-sizing: border-box;
+    background-color: rgba(216, 198, 176, 0.632);
+}
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: rgba(157, 146, 105, 0.474);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cover {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(139, 119, 158);
+    border-radius: 10px;
+}
+
+.title {
+    color: #fff;
+}
+
+.cover__inner {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 300px;
+    font-size: 25px;
+    background-color: rgba(97, 97, 207, 0.737);
+    border-color: blueviolet;
+    color: rgb(127, 255, 212);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: brown;
+    color: black;
+}
+
+.weight {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.weight__inner {
+    height: 20px;
+}
+
+.height {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.height__inner {
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.cover__inner-result {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 290px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: rgba(127, 255, 212, 0.463);
+    border-radius: 10px;
+}
+
+.index {
+    font-size: 20px;
+}
+
+.diagnoz {
+    font-size: 20px;
+}
